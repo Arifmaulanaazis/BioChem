@@ -20,7 +20,7 @@ pip install BioChem
 Or using the wheel file:
 
 ```bash
-pip install BioChem-0.1.0-py3-none-any.whl
+pip install https://github.com/Arifmaulanaazis/BioChem/releases/download/V0.1.0/biochem-0.1.0-py3-none-any.whl
 ```
 
 ## Requirements
