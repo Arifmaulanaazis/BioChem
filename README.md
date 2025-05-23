@@ -14,12 +14,6 @@ Integrated library for Bioinformatics and Computational Chemistry that simplifie
 You can install BioChem using pip:
 
 ```bash
-pip install BioChem
-```
-
-Or using the wheel file:
-
-```bash
 pip install https://github.com/Arifmaulanaazis/BioChem/releases/download/V0.1.0/biochem-0.1.0-py3-none-any.whl
 ```
 
