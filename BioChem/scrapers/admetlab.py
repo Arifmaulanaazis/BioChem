@@ -220,7 +220,7 @@ class AdmetLabScraper:
             logger.info(f"[green]✔ Batch of {len(smiles_batch)} molecules. Invalid: {summary.get('invalid_molecules')}[/]")
 
             csv_url = self._get_csv_url(soup)
-            csv_response = session.get(csv_url)
+            csv_response = session.get(csv_url, verify=False)
             df = pd.read_csv(StringIO(csv_response.text))
             return df
         except Exception as e:
