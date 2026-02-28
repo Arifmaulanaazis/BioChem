@@ -31,14 +31,16 @@ from BioChem.scrapers.admetlab import AdmetLabScraper
 from BioChem.scrapers.knapsack import KnapsackScraper
 from BioChem.scrapers.protox import ProtoxScraper
 from BioChem.scrapers.molsoft import MolsoftScraper
+from BioChem.cheminformatics import ChemAnalyzer
 
 # Library version
-__version__ = '0.1.0'
+__version__ = '1.0.0'
 
 # Module names to be exposed to users
 __all__ = [
     'AdmetLabScraper', 
     'KnapsackScraper', 
     'ProtoxScraper', 
-    'MolsoftScraper'
+    'MolsoftScraper',
+    'ChemAnalyzer'
 ] 
